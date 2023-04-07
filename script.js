@@ -11,7 +11,7 @@ const getUser = async (username)=>{
      <img src="${data.avatar_url}" alt="">
  </div>
  <div class="user-info">
-    <h2>${data.name}</h2>
+    <h2 class="text-3xl font-bold underline">${data.name}</h2>
     <p>${data.bio}</p>
  </div>
  <ul class="info">
